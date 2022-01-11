@@ -9,7 +9,8 @@
   "packageManager": "yarn@3.1.1",
   "license": "UNLICENSED",
   "dependencies": {
-    "aurelia": "latest"
+    "aurelia": "latest",
+    "roosterjs": "^8.12.0"
   },
   "devDependencies": {
     "@aurelia/plugin-gulp": "latest",
