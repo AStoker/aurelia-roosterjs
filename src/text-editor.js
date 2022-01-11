@@ -1,8 +1,16 @@
-import { bindable } from 'aurelia';
+import { bindable, customElement } from 'aurelia';
 
 import * as roosterjs from 'roosterjs';
 
+import elementTemplate from './text-editor.html';
+import style from './text-editor.scss';
 
+const template = `<style>${style}</style>${elementTemplate}`;
+
+@customElement({
+    'name': 'text-editor',
+    template
+})
 export class TextEditor {
     @bindable text;
 
