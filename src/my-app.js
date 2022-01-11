@@ -1,3 +1,6 @@
+
 export class MyApp {
-  message = 'Hello World!';
+    message = '<b>Hello World!</b>';
+
+    
 }
